@@ -1,3 +1,4 @@
+// ヒストグラムの作成
 function format(x: number, field: number, precision: number) {
   return x.toFixed(precision).toString().padStart(field, " ");
 }

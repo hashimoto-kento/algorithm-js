@@ -1,3 +1,4 @@
+// パスカルの三角形を表示するプログラム
 import { format } from './utils/formatter';
 import { combiT } from './utils/formatter';
 

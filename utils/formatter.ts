@@ -1,3 +1,4 @@
+// 表示用のフォーマット関数
 export function format(x: number, field: number, precision: number): string {
   return x.toFixed(precision).toString().padStart(field, " ");
 }
